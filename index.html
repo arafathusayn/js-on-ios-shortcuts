@@ -1,1 +1,1 @@
-<script>const s=new URLSearchParams(location.search);if(s.has("code")){const e=decodeURIComponent(s.get("code"));document.write(new Function(e)())}</script>
+<script>const e=atob(new URLSearchParams(location.search).get("code"));document.write(new Function(e)());</script>
