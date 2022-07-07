@@ -1,1 +1,1 @@
-<script>const e=atob(new URLSearchParams(location.search).get("code"));document.write(new Function(e)());</script>
+<script>const e=atob(new URLSearchParams(location.search).get("code").replace(/ /g, "+"));document.write(new Function(e)());</script>
